@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.harman2009.glintcontroller.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemStackMixin"
+  ],
+  "client": [
+    "ItemRendererMixin",
+    "ItemRendererGlintMixin",
+    "ItemRendererStrengthMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
