@@ -1,5 +1,5 @@
 {
-  "required": true,
+  "required": false,
   "minVersion": "0.8",
   "package": "com.harman2009.glintcontroller.mixin",
   "compatibilityLevel": "JAVA_8",
@@ -12,6 +12,6 @@
     "ItemRendererStrengthMixin"
   ],
   "injectors": {
-    "defaultRequire": 1
+    "defaultRequire": 0
   }
 }
